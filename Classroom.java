@@ -155,6 +155,10 @@ public class Classroom extends World
         VinothYashwant vinothyashwant = new VinothYashwant();
         addObject(vinothyashwant,5,6);
         vinothyashwant.assignSeat();
+        
+        ShirolRishi shirolrishi = new ShirolRishi();
+        addObject(shirolrishi,9,4);
+        shirolrishi.assignSeat();
   
     }
     
