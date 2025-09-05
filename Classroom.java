@@ -152,34 +152,10 @@ public class Classroom extends World
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,3);
         kilgoretrout.assignSeat();
-
         EngelbertsonSpencer engelbertsonSpencer = new EngelbertsonSpencer(true);
         addObject(engelbertsonSpencer,2,7);
-
-        VinothYashwant vinothyashwant = new VinothYashwant();
-        addObject(vinothyashwant,5,6);
-        vinothyashwant.assignSeat();
-
-        ShirolRishi shirolrishi = new ShirolRishi();
-        addObject(shirolrishi,9,4);
-        shirolrishi.assignSeat();
-       
-
-        JeganKrishna jegankrishna = new JeganKrishna();
-        addObject(jegankrishna,6,10);
-        jegankrishna.assignSeat();
-
-        SarrafEashan sarrafeashan = new SarrafEashan();
-        addObject(sarrafeashan,8,6);
-        sarrafeashan.assignSeat();
-        
-        RuBhavanasi rubhavanasi = new RuBhavanasi();
-        addObject(rubhavanasi,6,7);
-        rubhavanasi.assignSeat();
+        engelbertsonSpencer.assignSeat(); //this method does nothing other than setting variables to the exact same value
   
-        
-   
-
     }
     
     public List<Student> getAllStudents(){

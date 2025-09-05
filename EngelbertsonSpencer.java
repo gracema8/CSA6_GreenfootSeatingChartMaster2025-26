@@ -48,8 +48,12 @@ public class EngelbertsonSpencer extends Student implements SpecialInterestOrHob
         mySeatX=2;
         mySeatY=7;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
-       portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
-       standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
+       if (isOriginal){
+           portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
+       } else{
+           portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
+       }
+       standingFile= firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
         soundFile=firstName.toLowerCase()+ lastName.toLowerCase()+".wav";
         setImage(portraitFile);
         sitting=true;
