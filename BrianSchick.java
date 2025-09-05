@@ -41,8 +41,8 @@ public class BrianSchick extends Student implements SpecialInterestOrHobby
     public BrianSchick() {
         firstName="Brian";
         lastName="Schick";
-        mySeatX=1;
-        mySeatY=1;
+        mySeatX=2;
+        mySeatY=9;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
