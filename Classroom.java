@@ -158,7 +158,9 @@ public class Classroom extends World
         ShastriAryav shastriaryav = new ShastriAryav();
         addObject(shastriaryav,9,9);
         shastriaryav.assignSeat();
-  
+        SarrafEashan sarrafeashan = new SarrafEashan();
+        addObject(sarrafeashan,8,6);
+        sarrafeashan.assignSeat();
     }
     
     public List<Student> getAllStudents(){
@@ -232,5 +234,3 @@ public class Classroom extends World
    }
 }
 }
-
-
