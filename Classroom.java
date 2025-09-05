@@ -155,7 +155,10 @@ public class Classroom extends World
         VinothYashwant vinothyashwant = new VinothYashwant();
         addObject(vinothyashwant,5,6);
         vinothyashwant.assignSeat();
-  
+        JeganKrishna jegankrishna = new JeganKrishna();
+        addObject(jegankrishna,6,10);
+        jegankrishna.assignSeat();
+
     }
     
     public List<Student> getAllStudents(){
