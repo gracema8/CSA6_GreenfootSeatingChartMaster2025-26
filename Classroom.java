@@ -146,6 +146,7 @@ public class Classroom extends World
     private void prepare()
     {
         createDeskLayout();
+<<<<<<< Updated upstream
      // Each student needs to create their specific instance following the KilgoreTrout example.
      // Your current seatX and seatY can be found by right clicking on the corresponding seat in the Classrom.
      // and then clicking on the inspect text
@@ -201,6 +202,21 @@ public class Classroom extends World
         rubhavanasi.assignSeat();
   
 
+=======
+ // Each student needs to create their specific instance following the KilgoreTrout example.
+ // Your current seatX and seatY can be found by right clicking on the corresponding seat in the Classrom.
+ // and then clicking on the inspect text
+        KilgoreTrout kilgoretrout = new KilgoreTrout();
+        addObject(kilgoretrout,2,3);
+        kilgoretrout.assignSeat();
+        VinothYashwant vinothyashwant = new VinothYashwant();
+        addObject(vinothyashwant,5,6);
+        vinothyashwant.assignSeat();
+        GraceMa gracema = new GraceMa();
+        addObject(gracema,9,3);
+        gracema.assignSeat();
+  
+>>>>>>> Stashed changes
     }
     
     public List<Student> getAllStudents(){
@@ -273,4 +289,9 @@ public class Classroom extends World
        }
    }
 }
+<<<<<<< Updated upstream
+=======
+}
+
+>>>>>>> Stashed changes
 
