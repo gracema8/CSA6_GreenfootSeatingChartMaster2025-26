@@ -155,14 +155,16 @@ public class Classroom extends World
 
         EngelbertsonSpencer engelbertsonSpencer = new EngelbertsonSpencer(true);
         addObject(engelbertsonSpencer,2,7);
-  
-        SarrafEashan sarrafeashan = new SarrafEashan();
-        addObject(sarrafeashan,8,6);
-        sarrafeashan.assignSeat();
+
         VinothYashwant vinothyashwant = new VinothYashwant();
         addObject(vinothyashwant,5,6);
         vinothyashwant.assignSeat();
-        
+
+        ShirolRishi shirolrishi = new ShirolRishi();
+        addObject(shirolrishi,9,4);
+        shirolrishi.assignSeat();
+       
+
         JeganKrishna jegankrishna = new JeganKrishna();
         addObject(jegankrishna,6,10);
         jegankrishna.assignSeat();
@@ -176,7 +178,7 @@ public class Classroom extends World
         rubhavanasi.assignSeat();
   
         
-        
+   
 
     }
     
@@ -251,7 +253,3 @@ public class Classroom extends World
    }
 }
 }
-
-
-
-
